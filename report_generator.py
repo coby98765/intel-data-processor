@@ -13,8 +13,8 @@ def generate_mission_summary(missions):
     """
     return report.strip()
 
-    def generate_personnel_report(personnel):
-        """Generate personnel summary"""
+def generate_personnel_report(personnel):
+    """Generate personnel summary"""
 
     total = len(personnel)
     top_secret = len([p for p in personnel if p["clearance"] == "Top Secret"])
@@ -27,8 +27,8 @@ def generate_mission_summary(missions):
     """
     return report.strip()
 
-    def export_data_to_file(data, filename):
-        """Export processed data to file"""
+def export_data_to_file(data, filename):
+    """Export processed data to file"""
 
     with open(filename, 'w') as f:
         f.write(str(data))
