@@ -101,7 +101,6 @@ pytest -q
 - [ ] Input schema validation (Pydantic)
 
 ## Collaborators
-- @coby98765
-- GabiThaler
-- zalosh12
+[![Contributors](https://contrib.rocks/image?repo=coby98765/intel-data-processor)](https://github.com/coby98765/intel-data-processor/graphs/contributors)
+
 
